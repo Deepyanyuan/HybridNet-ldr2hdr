@@ -1,14 +1,14 @@
 # coding:utf-8
-
+'''
+test network
+'''
 import tensorflow as tf
 import tensorlayer as tl
 import glob, sys, os, datetime
 import numpy as np
 import cv2
-# import network
-import network1 as network
+import network as network
 import datetime
-# import imageio
 import random
 import img_io
 

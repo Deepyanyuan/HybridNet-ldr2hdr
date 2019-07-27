@@ -6,9 +6,7 @@
 # @gmail    ：liangb6228@gmail.com
 
 '''
-requests.cookies
-~~~~~~~~~~~~~~~~
-This code 
+merge the two models' results, including up-model and down-model by merger strategy
 '''
 import numpy as np
 import cv2

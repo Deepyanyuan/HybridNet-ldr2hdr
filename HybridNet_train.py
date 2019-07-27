@@ -1,7 +1,7 @@
 # coding:utf-8
 
 """
-
+train our Hybrid network
 """
 import tensorflow as tf
 import tensorlayer as tl
@@ -120,7 +120,7 @@ norm_y = tf.nn.l2_normalize(y, axis=2)
 norm_y_ = tf.nn.l2_normalize(y_, axis=2)
 
 # define cost function
-cost = norm_1_weiggt*tl.cost.absolute_difference_error(y,y_,is_mean=True,name='absolute_difference_error_loss') + cosine_weight*tf.losses.cosine_distance(norm_y,norm_y_,axis=2)  
+cost = norm_1_weiggt*tl.cost.absolute_difference_error(y,y_,is_mean=True,name='absolute_difference_error_loss') + cosine_weight*tf.losses.cosine_distance(norm_y,norm_y_,axis=2) 
 cost1 = norm_1_weiggt*tl.cost.absolute_difference_error(y,y_,is_mean=True,name='absolute_difference_error_loss')
 cost2 = cosine_weight*tf.losses.cosine_distance(norm_y,norm_y_,axis=2)
 
@@ -157,7 +157,7 @@ for epoch in range(maximum_epoch):
         if i%100 == 0:
             print('i',i)
             end = datetime.datetime.now()
-        # test code
+        # read ground truth
         img_path_list_H = glob.glob(dir_path+'/HDR/1.hdr')           
         img_path_list = glob.glob(dir_path+'/LDR/*.png')             
         img_path_list.sort()
@@ -204,7 +204,7 @@ for epoch in range(maximum_epoch):
     end = datetime.datetime.now()
     print('each train time is ',end-start)
     
-    # 保存模型
+    # save model and paras
     if epoch % step == 0:
         print('save model.npz')
         tl.files.save_npz(model.all_params, name=out_path)

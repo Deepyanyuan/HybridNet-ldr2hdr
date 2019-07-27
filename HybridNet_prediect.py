@@ -1,5 +1,7 @@
 # coding:utf-8
-
+'''
+prediction results
+'''
 import tensorflow as tf
 import img_io
 import sys, glob, os, cv2, time
@@ -119,8 +121,8 @@ print('N.len', N)
 for i in range(N):
     start_time = time.clock()
     dir_path = dir_path_list[i]
-    # frams = [glob.glob(dir_path + '/LDR/1.png')[0], glob.glob(dir_path + '/LDR/4.png')[0], glob.glob(dir_path + '/LDR/7.png')[0]]
-    frams = [glob.glob(dir_path + '/LDR/002.png')[0], glob.glob(dir_path + '/LDR/005.png')[0], glob.glob(dir_path + '/LDR/007.png')[0]]
+    # frams = [glob.glob(dir_path + '/LDR/1.png')[0], glob.glob(dir_path + '/LDR/4.png')[0], glob.glob(dir_path + '/LDR/7.png')[0]]         # used for DML, Fairchild, NewHDR datasets
+    frams = [glob.glob(dir_path + '/LDR/002.png')[0], glob.glob(dir_path + '/LDR/005.png')[0], glob.glob(dir_path + '/LDR/007.png')[0]]     # just only CanonCamera dataset
     filename_root = os.path.basename(dir_path)
     print('filename', filename_root)
     save_path = dir_outpath[0] + '/' + filename_root

@@ -49,7 +49,7 @@ if sx != FLAGS.width or sy != FLAGS.height:
 
 # Info
 print_("\n\n\t-------------------------------------------------------------------\n", 'm')
-print_("\t  HDR image reconstruction from a single exposure using deep CNNs\n\n", 'm')
+print_("\t  HybridNet: Learing to Reconstruct HDR Image from a Single LDR Image via Deep HDR Hybrid Network\n\n", 'm')
 print_("\t  Prediction settings\n", 'm')
 print_("\t  -------------------\n", 'm')
 print_("\t  Input image directory/file:         %s\n" % FLAGS.im_dir, 'm')

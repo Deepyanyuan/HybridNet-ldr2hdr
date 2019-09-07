@@ -1,5 +1,6 @@
 # HybridNet-ldr2hdr
-HybridNet：ldr2hdr via CNNs, detail in paper 《HybridNet: Learing to Reconstruct HDR Image from a Single LDR Image via Deep HDR Hybrid Network》
+HybridNet：ldr2hdr via CNNs, detail in paper 《HybridNet: Deep Inverse Tone Mapping Learning to Reconstruct HDR Image》
+
 original HDR dataset come from online: DML-HDR {http://dml.ece.ubc.ca/data/DML-HDR/}, Fairchild-HDR {http://rit-mcsl.org/fairchild//HDRPS/HDRthumbs.html}, and Funt-HDR {https://www2.cs.sfu.ca/~colour/data/}.
 
 2019-9-01 

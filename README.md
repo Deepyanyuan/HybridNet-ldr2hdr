@@ -3,15 +3,7 @@ HybridNet：ldr2hdr via CNNs, detail in paper 《HybridNet: Deep Inverse Tone Ma
 
 original HDR dataset come from online: DML-HDR {http://dml.ece.ubc.ca/data/DML-HDR/}, Fairchild-HDR {http://rit-mcsl.org/fairchild//HDRPS/HDRthumbs.html}, and Funt-HDR {https://www2.cs.sfu.ca/~colour/data/}.
 
-2019-9-01 
-补充
-
-新增了完整的数据集和预训练好的参数，链接如下
-
-链接：https://pan.baidu.com/s/18Ho7er1eF8YMKNDfPPiRFQ 
-提取码：lbbd 
-
-注意，下载后，需要先将所有压缩文件解压，默认路径即可
+2019-
 
 
 
@@ -28,3 +20,12 @@ step 4: predict the results if input any LDR image by HybridNet_predict.py
 step 5: performance comparison by Matlab code
 
 
+2019-9-01 
+supplement
+
+Added a complete datasets and pre-trained parameters, linked as follows
+
+linked：https://pan.baidu.com/s/18Ho7er1eF8YMKNDfPPiRFQ 
+Extraction code：lbbd 
+
+Note that after downloading, you need to extract all the compressed files first, the default path can be

@@ -3,9 +3,9 @@ HybridNet：ldr2hdr via CNNs, detail in paper 《HybridNet: Deep Inverse Tone Ma
 
 original HDR dataset come from online: DML-HDR {http://dml.ece.ubc.ca/data/DML-HDR/}, Fairchild-HDR {http://rit-mcsl.org/fairchild//HDRPS/HDRthumbs.html}, and Funt-HDR {https://www2.cs.sfu.ca/~colour/data/}.
 
-2019-
+2019-7-1
 
-
+pipeline:
 
 step 0: generate training pairs by generate_train_pairs.py
 
@@ -21,6 +21,7 @@ step 5: performance comparison by Matlab code
 
 
 2019-9-01 
+
 supplement
 
 Added a complete datasets and pre-trained parameters, linked as follows

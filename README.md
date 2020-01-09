@@ -1,9 +1,18 @@
 # HybridNet-ldr2hdr
+
+2020-01-09 
+
+We made some new fine adjustments, detail in link https://github.com/Deepyanyuan/DITMnet-ldr2hdr
+and paper "DITMnet: Learning to Reconstruct HDR Image Based on a Single-shot Filtered LDR Image"
+
+
+2019-7-1
+
 HybridNet：ldr2hdr via CNNs, detail in paper 《HybridNet: Deep Inverse Tone Mapping Learning to Reconstruct HDR Image》
 
 original HDR dataset come from online: DML-HDR {http://dml.ece.ubc.ca/data/DML-HDR/}, Fairchild-HDR {http://rit-mcsl.org/fairchild//HDRPS/HDRthumbs.html}, and Funt-HDR {https://www2.cs.sfu.ca/~colour/data/}.
 
-2019-7-1
+
 
 pipeline:
 

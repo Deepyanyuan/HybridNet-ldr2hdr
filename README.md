@@ -3,8 +3,8 @@
 2020-01-09 
 
 We made some new fine adjustments, detail in link https://github.com/Deepyanyuan/DITMnet-ldr2hdr
-and paper "DITMnet: Learning to Reconstruct HDR Image Based on a Single-shot Filtered LDR Image"
-
+and paper "DITMnet: Learning to Reconstruct HDR Image Based on a Single-shot Filtered LDR Image". 
+This paper has just been submiteted to IEEE journal translation on multimedia.
 
 2019-7-1
 
